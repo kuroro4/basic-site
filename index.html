@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div id="header">SampleのHeader</div>
+    </header>
+    <main>
+      <div class="top-animation">
+      <img id="changePic" src="./images/1275782831_Starry_sky_landscape_painting_Ghibli_style.png" alt="画像の切り替え">
+      </div>
+<div class="msg">Scroll Down<br>↓
+  <h2>テキストテキスト</h2>
+  <p><span class="lineMarker">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</span></p>
+  </div>
+  <div class="fade-in fade-in-up">
+    <img src="./images/1835885494_Mysterious_forest_landscape_painting_Ghibli_style.png">
+    <p>テキストテキストテキストテキストテキストテキストテキスト<br>
+    テキストテキストテキストテキストテキストテキストテキストテキスト<br>
+  テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+  </div>
+  <div class="fade-in fade-in-up">
+    <p>テキストテキストテキストテキストテキストテキストテキスト<br>
+    テキストテキストテキストテキストテキストテキストテキストテキスト<br>
+  テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+  <img src="./images/4217697185_Mysterious_forest_landscape_painting_Ghibli_style.png">
+  </div>
+
+  <div class="swiper-container">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide"><div id="player1"></div></div>
+          <div class="swiper-slide"><div id="player2"></div></div>
+          <div class="swiper-slide"><div id="player3"></div></div>
+          <div class="swiper-slide"><div id="player4"></div></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+  </div>
+
+  <div class="jsSlider_container">
+    <h1>テキストテキストテキストテキスト</h1>
+    <div class="jsSlides fade">
+      <!--<div class="jsSlider_numbertext">1 / 3</div>-->
+      <img src="./images/428947829_A_town_with_a_view_of_the_sea_Landscape_painting_Ghibli_style.png">
+    </div>
+
+    <div class="jsSlides fade">
+      <!--<div class="jsSlider_numbertext">2 / 3</div>-->
+      <img src="./images/727913660_A_town_with_a_view_of_the_sea_Landscape_painting_Ghibli_style.png">
+    </div>
+
+    <div class="jsSlides fade">
+      <!--<div class="jsSlider_numbertext">3 / 3</div>-->
+      <img src="./images/1492991873_A_town_with_a_view_of_the_sea_Landscape_painting_Ghibli_style.png">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="jsSlider_dots">
+  <span class="jsSlider_dots--dot" onclick="currentSlide(1)"></span>
+  <span class="jsSlider_dots--dot" onclick="currentSlide(2)"></span>
+  <span class="jsSlider_dots--dot" onclick="currentSlide(3)"></span>
+</div>
+  </div>
+
+<div id="page_top">
+  <a href="#"></a>
+</div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./js/fade-animation.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/fade-in.js"></script>
+    <script src="./js/top-back.js"></script>
+    <script src="./js/player.js"></script>
+  </body>
+</html>
